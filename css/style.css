@@ -1,0 +1,201 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css?family=Alata|Anton|Caveat|Roboto+Mono|Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+
+
+:root{
+    --light-gray: #2b3032a1;
+    --primary-color: #acebc141;
+    --border: #2b303218;
+    --text-color:#ff686b;
+    --anton: 'Anton', sans-serif;
+    --roboto : "Roboto Mono", monospace;
+    --alata : 'Alata', sans-serif;
+    --pacifico: 'Caveat', cursive;
+
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+
+.text-color{
+    color: var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+.light-blue{
+    color:lightblue;
+}
+
+/* HEADER */
+header{
+    background-color: var(--primary-color);
+    font-family: var(--alata);
+}
+header .site-title{
+    font-family: var(--anton);
+    justify-content: center;
+}
+.container .dropdown-toggle
+.container .dropdown-item{
+    font-size: 0.4em !important;
+}
+
+.header-links a{
+    font-size:0.9em;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+/* MENU DE NAV */
+
+.navbar-nav{
+    padding: 0.8em 0em;
+}
+.navbar-nav .nav-link{
+    padding: 0.8em 0em;
+    color: var(--light-gray) !important;
+}
+.navbar-nav .nav-item .nav-link{
+    padding:0 1.3em;
+}
+.navbar-nav .basket-icon{
+    margin-right: 6.5rem !important;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/*slider one*/
+
+.site-slider{
+    position: relative;
+}
+
+.position-top{
+    position : absolute;
+    top: 30%;
+}
+.site-slider .slider-btn .next,
+.site-slider .slider-btn .prev{
+    background-color: var(--primary-color);
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    color: white;
+    margin: 0 1rem;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.site-slider:hover .slider-btn .next,
+.site-slider:hover .slider-btn .prev{
+    opacity: 1;
+}
+.right-0{
+    right: 0;
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+.slick-dots li{
+    margin: 0 0.6rem;
+}
+.slick-dots button{
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border: none;
+    background-color: white;
+    text-indent: -99999px;
+    border-radius: 100%;
+    text-align: center !important;
+}
+
+.tire{
+    color: var(--light-gray) !important;
+    font-size: .8rem;
+}
+.cadre{
+    background-color: #caeec065;
+}
+
+.titre{
+    color: var(--light-gray) !important;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.container .pages{
+    border:2px solid #caeec065;
+    padding: 15px;
+    background-color: #acebc141;
+}
+
+.footer-page{
+    background-color: var(--primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
